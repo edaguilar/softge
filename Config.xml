@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns   = "http://www.w3.org/ns/widgets"
-        xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.infommodity.app"
-        versionCode = "10" 
-        version     = "0.0.1" >
-
-    <!-- versionCode is optional and Android only -->
-
-    <name>Infommodity</name>
-
-    <description>
-        Infommodity App
-    </description>
-	
-	<preference name="orientation" value="portrait" />
-
+<widget id="com.example.hello" version="0.0.1">        
+	<name>Infommodity App</name>        
+	<description>            
+	Infommodity App       
+	</description>        
+	<author email="eaguilar@softelligence.com.mx">            
+	Softelligence       
+	</author>        
+	<content src="index.html" />        
+	<access origin="*" />        
+	<preference name="Fullscreen" value="true" />        
+	<preference name="WebViewBounce" value="true" /> 
+	<preference name="Orientation" value="portrait" />
 </widget>
+
