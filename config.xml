@@ -14,7 +14,9 @@
 	</author>        
 	<content src="index.html" />        
 	<access origin="*" />        
-	<preference name="orientation" value="portrait" />
+	<preference name="Fullscreen" value="true" />        
+	<preference name="WebViewBounce" value="true" /> 
+	<preference name="orientation" value="landscape"/>
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
 	<gap:config-file platform="ios" parent="UISupportedInterfaceOrientations" overwrite="true">
