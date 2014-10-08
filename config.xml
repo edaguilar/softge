@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget 
- xmlns   = "http://www.w3.org/ns/widgets"        
- xmlns:gap   = "http://phonegap.com/ns/1.0"       
+ xmlns   = "http://www.w3.org/ns/widgets"        
+ xmlns:gap   = "http://phonegap.com/ns/1.0"       
   id          = "com.infommodity.app"        
   versionCode = "1"         
-  version     = "0.0.1">        
-	<name>Infommodity App</name>        
+  version     = "0.0.95">        
+	<name>Infommodity</name>        
 	<description>            
-	Infommodity App       
+	Infommodity       
 	</description>        
-	<author email="eaguilar@softelligence.com.mx">            
+	<author email="eaguilar@softelligence.com.mx" href="http://www.softelligence.com.mx">            
 	Softelligence       
 	</author>        
 	<content src="index.html" />        
@@ -17,5 +17,7 @@
 	<preference name="Fullscreen" value="true" />        
 	<preference name="WebViewBounce" value="true" /> 
 	<preference name="Orientation" value="portrait" />
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
 </widget>
 
